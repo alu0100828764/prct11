@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Historia del numero $\pi $}{6}{0}{1}
+\beamer@subsectionintoc {1}{1}{Mesopotamia}{7}{0}{1}
+\beamer@subsectionintoc {1}{2}{Matem\IeC {\'a}tica isl\IeC {\'a}mica}{8}{0}{1}
+\beamer@sectionintoc {2}{Curiosidades}{9}{0}{2}
+\beamer@sectionintoc {3}{Mas formulas de $\pi $ }{10}{0}{3}
+\beamer@sectionintoc {4}{Bibliograf\IeC {\'\i }a}{11}{0}{4}

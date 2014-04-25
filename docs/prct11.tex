@@ -1,0 +1,164 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+%\usepackage{color} 
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+\definecolor{MiVioleta}{RGB}{122,59,122}
+\definecolor{MiAzul}{RGB}{0,88,147}
+\definecolor{MiGris}{RGB}{56,61,66}
+\setbeamercolor*{palette primary}{use=structure, fg=white , bg=MiAzul}
+\setbeamercolor*{palette secundary}{use=structure, fg=white , bg=MiVioleta}
+\setbeamercolor*{palette tertiary}{use=structure, fg=white , bg=MiGris}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Presentación con Beamer]{Numero $\pi$}
+\author{Melanie Fumero Padron}
+\date[25-04-2014]{25 de abril de 2014}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usetheme{Madrid}
+%\usetheme{Antibes}
+%\usetheme{tree}
+%\usetheme{classic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document} % El objetivo de la practica es elaborar un documento sobre el numero PI. 
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+
+  %\includegraphics[width=0.15\textwidth]{img/ullesc}
+  \hspace*{7.0cm}
+  %\includegraphics[width=0.16\textwidth]{img/fmatesc}
+  \titlepage
+
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Índice}  
+  \tableofcontents[pausesections]
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Historia del numero $\pi$}
+
+
+\begin{frame}
+\frametitle{Historia del numero $\pi$}
+
+La búsqueda del mayor número de decimales del número $\pi$ ha supuesto un esfuerzo constante de numerosos científicos a lo largo de la historia.
+Algunas aproximaciones históricas de $\pi$ las mostraremos a continuacion:
+\end {frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Mesopotamia}
+
+\begin {frame}
+\frametitle {Mesopotamia}
+
+Algunos matemáticos mesopotámicos empleaban, en el cálculo de segmentos, valores de  igual a 3, alcanzando en algunos casos valores más aproximados, como el de:
+
+\begin{equation}
+\pi \approx 3 + \frac{1}{8} = 3,125 
+\end{equation}
+\end {frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Matemática islámica}
+
+\begin {frame}
+\frametitle{Matematica islamica}
+
+En el siglo IX Al-Jwarizmi, en su Álgebra (Hisab al yabr ua al muqabala), hace notar que el hombre práctico usa 22/7 como valor de $\pi$,
+el geómetra usa 3, y el astrónomo 3,1416. En el siglo XV, el matemático persa Ghiyath al-Kashi fue capaz de calcular el valor aproximado de $\pi$ con nueve dígitos,
+empleando una base numérica sexagesimal, lo que equivale a una aproximación de 16 dígitos decimales:
+
+\begin{equation}
+2 \pi = 6,2831853071795865
+\end{equation} 
+
+\end {frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\section{Curiosidades}
+ 
+\begin{frame}
+
+\frametitle{Curiosidades}
+\begin{definicion}
+En 1983,  Rajan Mahadevan  fue capaz de recitar de memoria 31.811 decimales de $\pi$.
+\end{definicion}
+
+\begin{definicion}
+No hay ningún 0 entre los 31 primeros dígitos de $\pi$.
+\end{definicion}
+
+\begin{definicion}
+El 14 de marzo se celebra el dia de $\pi$, y coincide curiosamente con el nacimiento de Einstein~\footnote{Einstein es considerado como el científico más importante del siglo XX}.
+\end{definicion}
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+
+\section {Mas formulas de $\pi$ }
+\begin{frame}
+
+\frametitle{Mas formulas de $\pi$}
+\begin{definition}
+\begin{equation}
+\pi \approx 3 + \frac{1}{8} = 3,125 
+\end{equation}
+\end{definition}
+
+\begin{definition}
+\begin{equation}
+\pi \simeq \frac{377}{120} = 3{,}1416 \ldots 
+\end{equation}
+\end{definition}
+
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+
+    \beamertemplatebookbibitems
+    \bibitem[Plan Estudios, 2011]{plan}  
+    Documento de verificación del grado. 
+    (2011) 
+
+    \beamertemplatebookbibitems
+    \bibitem[Guía Docente, 2013]{guia}  
+    Guía docente. 
+    (2013) 
+    {\small $http://eguia.ull.es/matematicas/query.php?codigo=299341201$}
+
+    \beamertemplatebookbibitems
+    \bibitem[URL: CTAN]{latex} 
+    CTAN. {\small $http://www.ctan.org/$}
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+\end{document}
